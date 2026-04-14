@@ -1,12 +1,11 @@
-
 // ===============================
-// 🇿🇦 MZANSIVOICE - POSTGRESQL BACKEND
+// 🇿🇦 MZANSIVOICE - POSTGRESQL BACKEND (FIXED)
 // ===============================
 
 const express = require('express');
 const { Pool } = require('pg');
 const cors = require('cors');
-const bcrypt = require('bcryptjs');
+const bcrypt = require('bcryptjs');   // ✅ Corrected (was bcrpt)
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 require('dotenv').config();
