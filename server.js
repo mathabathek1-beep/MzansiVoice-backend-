@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.get('/api/polls/active', (req, res) => {
-  res.json({ message: "Backend is working!" });
+  res.json({ message: "Backend is alive!" });
 });
 
 app.listen(port, () => {
